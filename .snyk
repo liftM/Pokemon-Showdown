@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - node-oom-heapdump > gc-stats > node-pre-gyp > tar-pack > debug:
+        patched: '2022-01-13T14:47:42.466Z'
+  'npm:extend:20180424':
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > extend:
+        patched: '2022-01-13T14:47:42.466Z'
+  'npm:hoek:20180212':
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-01-13T14:47:42.466Z'
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-01-13T14:47:42.466Z'
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-01-13T14:47:42.466Z'
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-01-13T14:47:42.466Z'
+  'npm:stringstream:20180511':
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > stringstream:
+        patched: '2022-01-13T14:47:42.466Z'
+  'npm:tough-cookie:20170905':
+    - node-oom-heapdump > gc-stats > node-pre-gyp > request > tough-cookie:
+        patched: '2022-01-13T14:47:42.466Z'
